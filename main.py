@@ -1,5 +1,6 @@
 # there are 11 variables
 import serial
+/* Testing */
 ser = serial.Serial('/dev/ttyUSB0', 9600)
 
 while 1 :
@@ -12,3 +13,6 @@ while 1 :
     print y 
     for z in range(0, 12):
         print [z]
+        
+        
+        
